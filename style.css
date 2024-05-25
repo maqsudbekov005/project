@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 27px;
+    font-weight: 700;
+    height: 100vh;
+    place-items: center;
+} 
+.sign_blog{
+    margin-left: 918px;
+}
+.sign_btn{
+    background:linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0)),
+    linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255,1),rgba(255, 255, 255, 1));
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+.sign_btn:hover{
+    background-size: 0 3px,100% 3px;
+}
